@@ -38,10 +38,10 @@
         </sqlMapGenerator>
 
         <!-- 生成DAO的包名和位置，这里配置将生成的dao类放在com.liyi.test.mapping这个包下 -->
-<!--        <javaClientGenerator type="XMLMAPPER" targetPackage="com.venscor.demo.dao" targetProject="src/main/java/">-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.venscor.demo.dao" targetProject="src/main/java/">
 <!--        <javaClientGenerator type="ANNOTATEDMAPPER" targetPackage="com.venscor.demo.dao" targetProject="src/main/java/">-->
 <!--        <javaClientGenerator type="MAPPER" targetPackage="com.venscor.demo.dao" targetProject="src/main/java/">-->
-        <javaClientGenerator type="MIXEDMAPPER" targetPackage="com.venscor.demo.dao" targetProject="src/main/java/">
+<!--        <javaClientGenerator type="MIXEDMAPPER" targetPackage="com.venscor.demo.dao" targetProject="src/main/java/">-->
 
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>

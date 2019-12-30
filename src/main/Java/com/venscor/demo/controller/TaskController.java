@@ -26,9 +26,9 @@ public class TaskController {
     @GetMapping
     public String showTask() {
         TaskExample taskExample = new TaskExample();
-//        taskExample.getOrderByClauses().put("addr", "asc");
-//        taskExample.getOrderByClauses().put("age", "desc");
-        taskExample.setOrderByClause("addr asc and 1=0");
+        taskExample.getOrderByClauses().put("addr", "asc");
+        taskExample.getOrderByClauses().put("age", "desc");
+//        taskExample.setOrderByClause("addr asc and 1=0");
         List<Task> tasks = taskService.selectTasks(taskExample);
 
         return JSONObject.valueToString(tasks);
