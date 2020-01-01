@@ -256,11 +256,6 @@
                     </execution>
                 </executions>
                 <dependencies>
-                    <dependency>
-                        <groupId>org.mybatis.generator</groupId>
-                        <artifactId>mybatis-generator-core</artifactId>
-                        <version>${mybais.generator.version}</version>
-                    </dependency>
 
                     <dependency>
                         <groupId>com.venscor.codesec</groupId>
